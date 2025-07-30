@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+        <style>
+            td{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <form>
+                <tr>
+                    <td>
+                        <label for="name">Name : </label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Mail : </label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="feedback">feedback message: </label>
+                    </td>
+                    <td>
+                        <textarea rows="5" cols="50" id="feedback"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Review">How satisfied are you?</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Review" id="satisfied" value = "satisfied">
+                        <label for="Satisfied">Satisfied</label>
+                        <input type="radio" name="Review" id="neutral" value = "neutral">
+                        <label for="Neutral">Neutral</label>
+                        <input type="radio" name="Review" id="unsatisfied" value = "unsatisfied">
+                        <label for="Unsatisfied">Unsatisfied</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
